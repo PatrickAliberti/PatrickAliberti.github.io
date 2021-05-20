@@ -4,7 +4,6 @@
 
 #main {
   background-color: rgb(22, 23, 27);
-  padding-bottom: 5%;
 }
 
 a {
@@ -86,14 +85,18 @@ nav img {
   margin-top: 5%;
 }
 
-#layout #me {
+.me {
   border-radius: 100%;
-  border: 10px solid rgb(15, 35, 65);
+  border: 10px solid rgb(29, 23, 53);
 
   width: 30%;
   height: 30%;
   margin-right: 5%;
   margin-left: 5%;
+}
+
+.hide {
+  display: none;
 }
 
 #github {
@@ -223,11 +226,13 @@ ul a:visited {
   justify-content: center;
   margin-left: 27%;
   margin-right: 27%;
+  margin-top: 4%;
 }
 
 #petGallery img {
   width: 98%;
-  margin-top: 5%;
+  margin-top: 2%;
+  border-radius: 5px;
 }
 
 #petGallery p {
@@ -246,6 +251,7 @@ ul a:visited {
 
 #Maisey img {
   width: 62.5%;
+  border-radius: 5px;
 }
 
 #Maisey p {
@@ -271,6 +277,146 @@ footer {
   padding-top: 8%;
   padding-bottom: 5%;
 }
+
+@media screen and (max-width: 1300px) {
+  #intro h1 {
+    font-size: 45px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  nav img {
+    width: 6%;
+  }
+
+  #intro h1 {
+    font-size: 40px;
+    margin-top: 5%;
+  }
+
+  #intro p {
+    font-size: 15px;
+  }
+
+  #github {
+    width: 16%;
+  }
+
+  #stack-overflow {
+    width: 13%;
+  }
+
+  ul img {
+    width: 12%;
+  }
+
+  #vert {
+    left: 23%;
+  }
+
+  ul a {
+    left: 30%;
+  }
+}
+
+@media screen and (max-width: 868px) {
+  #intro h1 {
+    font-size: 29px;
+  }
+
+  #intro p {
+    font-size: 12px;
+  }
+
+  ul img {
+    width: 17%;
+  }
+
+  #vert {
+    left: 27%;
+  }
+
+  ul a {
+    left: 35%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  nav {
+    font-size: 15px;
+  }
+
+  nav img {
+    width: 9%;
+  }
+
+  #gallery {
+    display: block;
+  }
+
+  #gallery div {
+    margin-top : 2%;
+    margin-bottom: 4%;
+    margin-left: 3%;
+    margin-right: 3%;
+  }
+
+  .me{
+    display: none;
+  }
+
+  .hide {
+    display: block;
+    border-radius: 100%;
+    border: 10px solid rgb(29, 23, 53);
+
+    width: 30%;
+    height: 30%;
+    margin-left: 33%;
+    margin-bottom: 2%;
+  }
+
+  #intro h1 {
+    text-align: center;
+    margin-right: 8%;
+  }
+
+  #intro p {
+    width: 80%;
+    text-align: center;
+    margin-left: 5%;
+  }
+
+  #intro {
+    width: 100%;
+  }
+
+  #github{
+    margin-left: 30%;
+  }
+
+  ul img {
+    width: 25%;
+  }
+
+  #vert {
+    left: 35%;
+  }
+
+  ul a {
+    left: 44%;
+  }
+
+  #petGallery {
+    display: block;
+  }
+}
+
+/*
+@media screen and (max-width: 480px) {
+  body {
+    display: none;
+}*/
 
 @font-face{
   font-family: 'Sansation-Light';
