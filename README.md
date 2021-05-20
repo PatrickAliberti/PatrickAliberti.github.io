@@ -1,3 +1,3 @@
 # PatrickAliberti.github.io
 
-This is my portfolio, where you can see who I am and my projects.
+This is my portfolio, where you can see who I am and the projects I've worked on.
