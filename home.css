@@ -193,25 +193,12 @@ ul img {
   margin-right: 5%;
 }
 
-#vert {
-  border-left: 2px solid rgb(89, 106, 128);
-
-  height: 106px;
-  position: absolute;
-  left: 17%;
-  top: 74%;;
-}
-
 ul a {
   font-size: 18px;
 
   position: absolute;
   left: 22%;
   top: 80%;
-}
-
-#cp2 {
-  top: 89%;
 }
 
 ul a:hover {
