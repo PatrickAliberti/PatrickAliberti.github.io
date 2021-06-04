@@ -105,7 +105,7 @@ nav img {
 
 .me {
   border-radius: 100%;
-  border: 10px solid rgb(29, 23, 53);
+  border: 10px solid rgb(47, 33, 99);
 
   width: 30%;
   height: 30%;
@@ -150,7 +150,7 @@ nav img {
 }
 
 #grey {
-  background-color: rgb(231, 231, 231);
+  background-color: rgb(235, 236, 243);
 }
 
 hr {
@@ -180,6 +180,10 @@ hr {
   font-size: 22px;
 }
 
+li {
+  margin-top: 5%;
+}
+
 ul {
   list-style-type: circle;
   margin-left: 4%;
@@ -191,7 +195,6 @@ ul {
 ul img {
   width: 10%;
   margin-right: 5%;
-  margin-bottom: 5%;
 }
 
 ul a {
@@ -268,56 +271,14 @@ ul a:visited {
   color: rgb(99, 109, 124);
   font-family: Sansation-Light;
   font-size: 15px;
+  text-align: center;
   
+  margin-right: 40%;
   margin-top: 1%;
 }
 
 a img{
   display: inline
-}
-
-.gallery {
-  display: grid;
-  grid-template-rows: 25% 25% 25%;
-  grid-template-columns: 25% 25% 25%;
-  justify-content: space-evenly;
-  margin-top: 12%;
-}
-
-.gallery img {
-  border-radius: 2%;
-
-  width: 100%;
-  margin-bottom: 20%;
-}
-
-.gallery #bird1 {
-  width: 80%;
-  margin-left: 20%;
-}
-.gallery #bird2 {
-  width: 42.5%;
-  margin-left: 20%;
-
-}
-.gallery #bird3 {
-  width: 42.5%;
-  margin-left: 20%;
-}
-
-#sourceCode {
-  color: rgb(41, 44, 70);
-  font-family: Sansation-Light;
-  font-size: 40px;
-  text-align: center;
-  text-decoration: underline;
-
-  margin-left: 40%;
-}
-
-#sourceCode:hover {
-  color: rgb(109, 109, 168);
-  text-decoration: none;
 }
 
 footer {
@@ -422,7 +383,7 @@ footer {
   .hide {
     display: block;
     border-radius: 100%;
-    border: 10px solid rgb(29, 23, 53);
+    border: 10px solid rgb(47, 33, 99);
 
     width: 30%;
     height: 30%;
@@ -463,6 +424,10 @@ footer {
 
   #petGallery {
     display: block;
+  }
+
+  footer {
+    font-size: 15px;
   }
 }
 
